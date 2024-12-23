@@ -1,0 +1,618 @@
+2024-10-07 15:02:01,821 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-10-07 15:02:01,821 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-10-07 15:02:02,960 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-10-07 15:02:02,960 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-10-07 15:02:03,088 INFO [main][GenericScope.java:295] - BeanFactory id=d74fc5e2-b528-30d0-8ad0-df9e64823371
+2024-10-07 15:02:03,088 INFO [main][GenericScope.java:295] - BeanFactory id=d74fc5e2-b528-30d0-8ad0-df9e64823371
+2024-10-07 15:02:03,529 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-10-07 15:02:03,529 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-10-07 15:02:03,783 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@787e4357'
+2024-10-07 15:02:03,783 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@787e4357'
+2024-10-07 15:02:03,790 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-10-07 15:02:03,790 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-10-07 15:02:05,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2024-10-07 15:02:05,501 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2024-10-07 15:02:05,512 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2024-10-07 15:02:05,512 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2024-10-07 15:02:05,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2024-10-07 15:02:05,518 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2024-10-07 15:02:05,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2024-10-07 15:02:05,563 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2024-10-07 15:02:05,565 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2024-10-07 15:02:05,565 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2024-10-07 15:02:05,574 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2024-10-07 15:02:05,574 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2024-10-07 15:02:05,578 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2024-10-07 15:02:05,578 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2024-10-07 15:02:05,579 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2024-10-07 15:02:05,579 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2024-10-07 15:02:05,583 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2024-10-07 15:02:05,583 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2024-10-07 15:02:05,586 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2024-10-07 15:02:05,586 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2024-10-07 15:02:05,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2024-10-07 15:02:05,591 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2024-10-07 15:02:05,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2024-10-07 15:02:05,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2024-10-07 15:02:05,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2024-10-07 15:02:05,600 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2024-10-07 15:02:05,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2024-10-07 15:02:05,605 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2024-10-07 15:02:05,609 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2024-10-07 15:02:05,609 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2024-10-07 15:02:05,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2024-10-07 15:02:05,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2024-10-07 15:02:05,620 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2024-10-07 15:02:05,620 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2024-10-07 15:02:06,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectListByShardIndex
+2024-10-07 15:02:06,306 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectListByShardIndex
+2024-10-07 15:02:06,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.startTask
+2024-10-07 15:02:06,309 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.startTask
+2024-10-07 15:02:06,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.insert
+2024-10-07 15:02:06,316 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.insert
+2024-10-07 15:02:06,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.delete
+2024-10-07 15:02:06,321 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.delete
+2024-10-07 15:02:06,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteByMap
+2024-10-07 15:02:06,324 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteByMap
+2024-10-07 15:02:06,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteById
+2024-10-07 15:02:06,326 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteById
+2024-10-07 15:02:06,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteBatchIds
+2024-10-07 15:02:06,328 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteBatchIds
+2024-10-07 15:02:06,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.update
+2024-10-07 15:02:06,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.update
+2024-10-07 15:02:06,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.updateById
+2024-10-07 15:02:06,333 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.updateById
+2024-10-07 15:02:06,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectById
+2024-10-07 15:02:06,334 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectById
+2024-10-07 15:02:06,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectBatchIds
+2024-10-07 15:02:06,337 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectBatchIds
+2024-10-07 15:02:06,357 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectByMap
+2024-10-07 15:02:06,357 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectByMap
+2024-10-07 15:02:06,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectOne
+2024-10-07 15:02:06,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectOne
+2024-10-07 15:02:06,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectCount
+2024-10-07 15:02:06,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectCount
+2024-10-07 15:02:06,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMaps
+2024-10-07 15:02:06,370 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMaps
+2024-10-07 15:02:06,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMapsPage
+2024-10-07 15:02:06,373 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMapsPage
+2024-10-07 15:02:06,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectObjs
+2024-10-07 15:02:06,376 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectObjs
+2024-10-07 15:02:06,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectList
+2024-10-07 15:02:06,381 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectList
+2024-10-07 15:02:06,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectPage
+2024-10-07 15:02:06,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectPage
+2024-10-07 15:02:06,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert
+2024-10-07 15:02:06,470 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert
+2024-10-07 15:02:06,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.delete
+2024-10-07 15:02:06,474 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.delete
+2024-10-07 15:02:06,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2024-10-07 15:02:06,476 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2024-10-07 15:02:06,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteById
+2024-10-07 15:02:06,479 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteById
+2024-10-07 15:02:06,481 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2024-10-07 15:02:06,481 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2024-10-07 15:02:06,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.update
+2024-10-07 15:02:06,485 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.update
+2024-10-07 15:02:06,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.updateById
+2024-10-07 15:02:06,488 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.updateById
+2024-10-07 15:02:06,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectById
+2024-10-07 15:02:06,489 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectById
+2024-10-07 15:02:06,492 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2024-10-07 15:02:06,492 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2024-10-07 15:02:06,494 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectByMap
+2024-10-07 15:02:06,494 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectByMap
+2024-10-07 15:02:06,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectOne
+2024-10-07 15:02:06,499 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectOne
+2024-10-07 15:02:06,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectCount
+2024-10-07 15:02:06,503 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectCount
+2024-10-07 15:02:06,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMaps
+2024-10-07 15:02:06,507 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMaps
+2024-10-07 15:02:06,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2024-10-07 15:02:06,511 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2024-10-07 15:02:06,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectObjs
+2024-10-07 15:02:06,517 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectObjs
+2024-10-07 15:02:06,522 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectList
+2024-10-07 15:02:06,522 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectList
+2024-10-07 15:02:06,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectPage
+2024-10-07 15:02:06,525 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectPage
+2024-10-07 15:02:07,602 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2024-10-07 15:02:07,602 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2024-10-07 15:02:07,702 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-10-07 15:02:07,702 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-10-07 15:02:08,187 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-10-07 15:02:08,187 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-10-07 15:02:08,188 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-10-07 15:02:08,188 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-10-07 15:02:08,204 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-10-07 15:02:08,204 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-10-07 15:02:08,205 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-10-07 15:02:08,205 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-10-07 15:02:08,284 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-10-07 15:02:08,284 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-10-07 15:02:08,307 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-10-07 15:02:08,307 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-10-07 15:02:08,309 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-10-07 15:02:08,309 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-10-07 15:02:08,311 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-10-07 15:02:08,311 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-10-07 15:02:08,315 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-10-07 15:02:08,315 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-10-07 15:02:08,316 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-10-07 15:02:08,316 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-10-07 15:02:08,318 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-10-07 15:02:08,318 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-10-07 15:02:08,320 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-10-07 15:02:08,320 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-10-07 15:02:08,321 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-10-07 15:02:08,321 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-10-07 15:02:08,323 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-10-07 15:02:08,323 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-10-07 15:02:08,325 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-10-07 15:02:08,325 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-10-07 15:02:08,327 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-10-07 15:02:08,327 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-10-07 15:02:08,328 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-10-07 15:02:08,328 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-10-07 15:02:08,328 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-10-07 15:02:08,328 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-10-07 15:02:08,329 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-10-07 15:02:08,329 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-10-07 15:02:08,329 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-10-07 15:02:08,329 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-10-07 15:02:08,708 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-07 15:02:08,708 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-07 15:02:10,509 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-10-07 15:02:10,509 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-10-07 15:02:11,590 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2024-10-07 15:02:11,590 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2024-10-07 15:02:11,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2024-10-07 15:02:11,593 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2024-10-07 15:02:11,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2024-10-07 15:02:11,595 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2024-10-07 15:02:11,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2024-10-07 15:02:11,597 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2024-10-07 15:02:11,599 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-10-07 15:02:11,599 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-10-07 15:02:11,602 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2024-10-07 15:02:11,602 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2024-10-07 15:02:11,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2024-10-07 15:02:11,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2024-10-07 15:02:11,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2024-10-07 15:02:11,604 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2024-10-07 15:02:11,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-10-07 15:02:11,606 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-10-07 15:02:11,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2024-10-07 15:02:11,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2024-10-07 15:02:11,611 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2024-10-07 15:02:11,611 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2024-10-07 15:02:11,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2024-10-07 15:02:11,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2024-10-07 15:02:11,616 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2024-10-07 15:02:11,616 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2024-10-07 15:02:11,619 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-10-07 15:02:11,619 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-10-07 15:02:11,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2024-10-07 15:02:11,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2024-10-07 15:02:11,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2024-10-07 15:02:11,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2024-10-07 15:02:11,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2024-10-07 15:02:11,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2024-10-07 15:02:11,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2024-10-07 15:02:11,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2024-10-07 15:02:11,643 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2024-10-07 15:02:11,643 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2024-10-07 15:02:11,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2024-10-07 15:02:11,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2024-10-07 15:02:11,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2024-10-07 15:02:11,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2024-10-07 15:02:11,649 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2024-10-07 15:02:11,649 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2024-10-07 15:02:11,651 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2024-10-07 15:02:11,651 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2024-10-07 15:02:11,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2024-10-07 15:02:11,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2024-10-07 15:02:11,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2024-10-07 15:02:11,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2024-10-07 15:02:11,658 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2024-10-07 15:02:11,658 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2024-10-07 15:02:11,660 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2024-10-07 15:02:11,660 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2024-10-07 15:02:11,662 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2024-10-07 15:02:11,662 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2024-10-07 15:02:11,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2024-10-07 15:02:11,665 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2024-10-07 15:02:11,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2024-10-07 15:02:11,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2024-10-07 15:02:11,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2024-10-07 15:02:11,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2024-10-07 15:02:11,674 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2024-10-07 15:02:11,674 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2024-10-07 15:02:11,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2024-10-07 15:02:11,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2024-10-07 15:02:11,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2024-10-07 15:02:11,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2024-10-07 15:02:11,702 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:testJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4e2109fe[class com.xuecheng.media.jobhandler.SampleJob#testJob]
+2024-10-07 15:02:11,702 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:testJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4e2109fe[class com.xuecheng.media.jobhandler.SampleJob#testJob]
+2024-10-07 15:02:11,703 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@18dac12f[class com.xuecheng.media.jobhandler.SampleJob#shardingJobHandler]
+2024-10-07 15:02:11,703 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@18dac12f[class com.xuecheng.media.jobhandler.SampleJob#shardingJobHandler]
+2024-10-07 15:02:11,703 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:videoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@36cfe107[class com.xuecheng.media.jobhandler.VideoTask#videoJobHandler]
+2024-10-07 15:02:11,703 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:videoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@36cfe107[class com.xuecheng.media.jobhandler.VideoTask#videoJobHandler]
+2024-10-07 15:02:11,912 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-10-07 15:02:11,912 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-10-07 15:02:11,913 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-10-07 15:02:11,913 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-10-07 15:02:11,914 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-10-07 15:02:11,914 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-10-07 15:02:11,914 DEBUG [Thread-11][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-10-07 15:02:11,914 DEBUG [Thread-11][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-10-07 15:02:11,919 DEBUG [Thread-11][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 32
+2024-10-07 15:02:11,919 DEBUG [Thread-11][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 32
+2024-10-07 15:02:11,921 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-10-07 15:02:11,921 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-10-07 15:02:11,922 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-10-07 15:02:11,922 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2024-10-07 15:02:11,928 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-10-07 15:02:11,928 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-10-07 15:02:11,940 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-10-07 15:02:11,940 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-10-07 15:02:11,942 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.137.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=64147&clusters=DEFAULT, body: {}
+2024-10-07 15:02:11,942 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.137.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=64147&clusters=DEFAULT, body: {}
+2024-10-07 15:02:11,955 DEBUG [Thread-11][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-10-07 15:02:11,955 DEBUG [Thread-11][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-10-07 15:02:11,955 DEBUG [Thread-11][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-10-07 15:02:11,955 DEBUG [Thread-11][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-10-07 15:02:11,969 DEBUG [Thread-11][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-10-07 15:02:11,969 DEBUG [Thread-11][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-10-07 15:02:11,969 DEBUG [Thread-11][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-10-07 15:02:11,969 DEBUG [Thread-11][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-10-07 15:02:11,993 DEBUG [Thread-11][PlatformDependent.java:1036] - Platform: Windows
+2024-10-07 15:02:11,993 DEBUG [Thread-11][PlatformDependent.java:1036] - Platform: Windows
+2024-10-07 15:02:11,995 DEBUG [Thread-11][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-10-07 15:02:11,995 DEBUG [Thread-11][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-10-07 15:02:11,996 DEBUG [Thread-11][PlatformDependent0.java:897] - Java version: 8
+2024-10-07 15:02:11,996 DEBUG [Thread-11][PlatformDependent0.java:897] - Java version: 8
+2024-10-07 15:02:11,997 DEBUG [Thread-11][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-10-07 15:02:11,997 DEBUG [Thread-11][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-10-07 15:02:11,998 DEBUG [Thread-11][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-10-07 15:02:11,998 DEBUG [Thread-11][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-10-07 15:02:11,998 DEBUG [Thread-11][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-10-07 15:02:11,998 DEBUG [Thread-11][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-10-07 15:02:11,999 DEBUG [Thread-11][PlatformDependent0.java:257] - direct buffer constructor: available
+2024-10-07 15:02:11,999 DEBUG [Thread-11][PlatformDependent0.java:257] - direct buffer constructor: available
+2024-10-07 15:02:12,000 DEBUG [Thread-11][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-10-07 15:02:12,000 DEBUG [Thread-11][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-10-07 15:02:12,000 DEBUG [Thread-11][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-10-07 15:02:12,000 DEBUG [Thread-11][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-10-07 15:02:12,001 DEBUG [Thread-11][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-10-07 15:02:12,001 DEBUG [Thread-11][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-10-07 15:02:12,001 DEBUG [Thread-11][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-10-07 15:02:12,001 DEBUG [Thread-11][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-10-07 15:02:12,002 DEBUG [Thread-11][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\郭植辉\AppData\Local\Temp (java.io.tmpdir)
+2024-10-07 15:02:12,002 DEBUG [Thread-11][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\郭植辉\AppData\Local\Temp (java.io.tmpdir)
+2024-10-07 15:02:12,002 DEBUG [Thread-11][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-10-07 15:02:12,002 DEBUG [Thread-11][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-10-07 15:02:12,003 DEBUG [Thread-11][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 3750756352 bytes
+2024-10-07 15:02:12,003 DEBUG [Thread-11][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 3750756352 bytes
+2024-10-07 15:02:12,003 DEBUG [Thread-11][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-10-07 15:02:12,003 DEBUG [Thread-11][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-10-07 15:02:12,005 DEBUG [Thread-11][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2024-10-07 15:02:12,005 DEBUG [Thread-11][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2024-10-07 15:02:12,005 DEBUG [Thread-11][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-10-07 15:02:12,005 DEBUG [Thread-11][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-10-07 15:02:12,018 DEBUG [Thread-11][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-10-07 15:02:12,018 DEBUG [Thread-11][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-10-07 15:02:12,041 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-10-07 15:02:12,041 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-10-07 15:02:12,063 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-10-07 15:02:12,063 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-10-07 15:02:12,103 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-10-07 15:02:12,103 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-10-07 15:02:12,121 DEBUG [Thread-11][DefaultChannelId.java:79] - -Dio.netty.processId: 11724 (auto-detected)
+2024-10-07 15:02:12,121 DEBUG [Thread-11][DefaultChannelId.java:79] - -Dio.netty.processId: 11724 (auto-detected)
+2024-10-07 15:02:12,124 DEBUG [Thread-11][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2024-10-07 15:02:12,124 DEBUG [Thread-11][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2024-10-07 15:02:12,124 DEBUG [Thread-11][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2024-10-07 15:02:12,124 DEBUG [Thread-11][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2024-10-07 15:02:12,340 INFO [main][StartupInfoLogger.java:61] - Started FileUploadTest in 13.495 seconds (JVM running for 15.034)
+2024-10-07 15:02:12,340 INFO [main][StartupInfoLogger.java:61] - Started FileUploadTest in 13.495 seconds (JVM running for 15.034)
+2024-10-07 15:02:12,348 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-10-07 15:02:12,348 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-10-07 15:02:12,349 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-10-07 15:02:12,349 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-10-07 15:02:12,350 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-10-07 15:02:12,350 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-10-07 15:02:12,350 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,350 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,353 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-10-07 15:02:12,353 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-10-07 15:02:12,353 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,353 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,357 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-10-07 15:02:12,357 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-10-07 15:02:12,357 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,357 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,360 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-10-07 15:02:12,360 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-10-07 15:02:12,361 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-10-07 15:02:12,361 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-10-07 15:02:12,362 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-10-07 15:02:12,362 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-10-07 15:02:12,362 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,362 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-10-07 15:02:12,364 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-projectd4ab26273b227c647e494b1afae07519devswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-projectc212c33e5e833619acf25685147cb11fdevmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2024-10-07 15:02:12,364 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-projectd4ab26273b227c647e494b1afae07519devswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-projectc212c33e5e833619acf25685147cb11fdevmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2024-10-07 15:02:12,365 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4fc94e82]
+2024-10-07 15:02:12,365 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4fc94e82]
+2024-10-07 15:02:12,379 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-projectd4ab26273b227c647e494b1afae07519devswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-projectc212c33e5e833619acf25685147cb11fdevmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2024-10-07 15:02:12,379 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-projectd4ab26273b227c647e494b1afae07519devswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-projectc212c33e5e833619acf25685147cb11fdevmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2024-10-07 15:02:12,380 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4fc94e82]
+2024-10-07 15:02:12,380 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@4fc94e82]
+2024-10-07 15:02:12,732 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2024-10-07 15:02:12,732 DEBUG [main][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2024-10-07 15:02:12,734 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2024-10-07 15:02:12,734 DEBUG [main][HikariConfig.java:1098] - allowPoolSuspension.............false
+2024-10-07 15:02:12,735 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2024-10-07 15:02:12,735 DEBUG [main][HikariConfig.java:1098] - autoCommit......................true
+2024-10-07 15:02:12,735 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2024-10-07 15:02:12,735 DEBUG [main][HikariConfig.java:1098] - catalog.........................none
+2024-10-07 15:02:12,735 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2024-10-07 15:02:12,735 DEBUG [main][HikariConfig.java:1098] - connectionInitSql...............none
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - connectionTestQuery.............none
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - connectionTimeout...............30000
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - dataSource......................none
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2024-10-07 15:02:12,736 DEBUG [main][HikariConfig.java:1098] - dataSourceClassName.............none
+2024-10-07 15:02:12,737 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2024-10-07 15:02:12,737 DEBUG [main][HikariConfig.java:1098] - dataSourceJNDI..................none
+2024-10-07 15:02:12,737 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2024-10-07 15:02:12,737 DEBUG [main][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2024-10-07 15:02:12,737 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-10-07 15:02:12,737 DEBUG [main][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - healthCheckProperties...........{}
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - healthCheckRegistry.............none
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2024-10-07 15:02:12,738 DEBUG [main][HikariConfig.java:1098] - idleTimeout.....................600000
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - initializationFailTimeout.......1
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - isolateInternalQueries..........false
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_media?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_media?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2024-10-07 15:02:12,739 DEBUG [main][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2024-10-07 15:02:12,740 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2024-10-07 15:02:12,740 DEBUG [main][HikariConfig.java:1098] - maxLifetime.....................1800000
+2024-10-07 15:02:12,740 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2024-10-07 15:02:12,740 DEBUG [main][HikariConfig.java:1098] - maximumPoolSize.................10
+2024-10-07 15:02:12,740 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2024-10-07 15:02:12,740 DEBUG [main][HikariConfig.java:1098] - metricRegistry..................none
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - minimumIdle.....................10
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - password........................<masked>
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2024-10-07 15:02:12,741 DEBUG [main][HikariConfig.java:1098] - readOnly........................false
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - registerMbeans..................false
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - scheduledExecutor...............none
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - schema..........................none
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - threadFactory...................internal
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - transactionIsolation............default
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2024-10-07 15:02:12,742 DEBUG [main][HikariConfig.java:1098] - username........................"root"
+2024-10-07 15:02:12,743 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2024-10-07 15:02:12,743 DEBUG [main][HikariConfig.java:1098] - validationTimeout...............5000
+2024-10-07 15:02:12,743 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-10-07 15:02:12,743 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-10-07 15:02:12,744 DEBUG [Thread-11][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-10-07 15:02:12,744 DEBUG [Thread-11][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-10-07 15:02:12,746 DEBUG [Thread-11][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-10-07 15:02:12,746 DEBUG [Thread-11][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-10-07 15:02:12,989 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4535bdc6
+2024-10-07 15:02:12,989 DEBUG [main][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4535bdc6
+2024-10-07 15:02:12,991 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-10-07 15:02:12,991 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-10-07 15:02:13,001 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2024-10-07 15:02:13,001 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2024-10-07 15:02:13,031 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 16(Integer)
+2024-10-07 15:02:13,031 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 16(Integer)
+2024-10-07 15:02:13,040 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.137.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=64147&clusters=DEFAULT, body: {}
+2024-10-07 15:02:13,040 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.137.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=64147&clusters=DEFAULT, body: {}
+2024-10-07 15:02:13,079 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-10-07 15:02:13,079 DEBUG [main][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-10-07 15:02:13,102 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-10-07 15:02:13,102 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-10-07 15:02:13,111 WARN [Thread-17][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-10-07 15:02:13,111 WARN [Thread-17][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-10-07 15:02:13,112 WARN [Thread-17][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-10-07 15:02:13,112 WARN [Thread-17][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-10-07 15:02:13,112 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-07 15:02:13,112 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-10-07 15:02:13,113 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-10-07 15:02:13,113 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-10-07 15:02:13,113 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-10-07 15:02:13,113 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-10-07 15:02:13,117 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-10-07 15:02:13,117 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-10-07 15:02:13,117 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-10-07 15:02:13,117 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-10-07 15:02:13,117 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-10-07 15:02:13,117 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-10-07 15:02:13,127 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6523c0ba
+2024-10-07 15:02:13,127 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6523c0ba
+2024-10-07 15:02:13,148 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@241eca81
+2024-10-07 15:02:13,148 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@241eca81
+2024-10-07 15:02:13,238 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15708f48
+2024-10-07 15:02:13,238 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15708f48
+2024-10-07 15:02:13,286 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@443135ce
+2024-10-07 15:02:13,286 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@443135ce
+2024-10-07 15:02:13,382 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a57083
+2024-10-07 15:02:13,382 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a57083
+2024-10-07 15:02:13,452 DEBUG [Thread-11][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-10-07 15:02:13,452 DEBUG [Thread-11][DefaultChannelId.java:101] - -Dio.netty.machineId: 00:50:56:ff:fe:c0:00:08 (auto-detected)
+2024-10-07 15:02:13,470 DEBUG [Thread-11][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2024-10-07 15:02:13,470 DEBUG [Thread-11][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2024-10-07 15:02:13,470 DEBUG [Thread-11][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2024-10-07 15:02:13,470 DEBUG [Thread-11][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2024-10-07 15:02:13,496 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@407f8d4e
+2024-10-07 15:02:13,496 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@407f8d4e
+2024-10-07 15:02:13,507 DEBUG [Thread-11][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 32
+2024-10-07 15:02:13,507 DEBUG [Thread-11][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 32
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 32
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 32
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2024-10-07 15:02:13,508 DEBUG [Thread-11][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2024-10-07 15:02:13,509 DEBUG [Thread-11][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-10-07 15:02:13,509 DEBUG [Thread-11][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-10-07 15:02:13,509 DEBUG [Thread-11][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-10-07 15:02:13,509 DEBUG [Thread-11][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-10-07 15:02:13,509 DEBUG [Thread-11][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-10-07 15:02:13,509 DEBUG [Thread-11][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-10-07 15:02:13,510 DEBUG [Thread-11][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-10-07 15:02:13,510 DEBUG [Thread-11][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-10-07 15:02:13,510 DEBUG [Thread-11][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-10-07 15:02:13,510 DEBUG [Thread-11][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-10-07 15:02:13,529 DEBUG [Thread-11][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2024-10-07 15:02:13,529 DEBUG [Thread-11][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2024-10-07 15:02:13,529 DEBUG [Thread-11][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-10-07 15:02:13,529 DEBUG [Thread-11][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-10-07 15:02:13,529 DEBUG [Thread-11][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-10-07 15:02:13,529 DEBUG [Thread-11][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-10-07 15:02:13,543 ERROR [Thread-11][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-10-07 15:02:13,551 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54108ad5
+2024-10-07 15:02:13,543 ERROR [Thread-11][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:461)
+	at sun.nio.ch.Net.bind(Net.java:453)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:222)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-10-07 15:02:13,551 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54108ad5
+2024-10-07 15:02:13,616 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@680f52b1
+2024-10-07 15:02:13,616 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@680f52b1
+2024-10-07 15:02:13,672 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57af644c
+2024-10-07 15:02:13,672 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57af644c
+2024-10-07 15:02:13,672 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-10-07 15:02:13,672 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-10-07 15:02:15,057 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.137.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=64147&clusters=DEFAULT, body: {}
+2024-10-07 15:02:15,057 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.137.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=64147&clusters=DEFAULT, body: {}
+2024-10-07 15:02:15,078 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-10-07 15:02:15,078 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-10-07 15:02:16,930 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-10-07 15:02:16,930 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-10-07 15:02:18,088 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-10-07 15:02:18,088 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-10-07 15:02:18,088 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-10-07 15:02:18,088 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-10-07 15:02:21,108 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-10-07 15:02:21,108 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-10-07 15:02:21,109 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-10-07 15:02:21,109 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-10-07 15:02:21,109 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-10-07 15:02:21,109 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-10-07 15:02:21,109 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-10-07 15:02:21,110 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-10-07 15:02:21,110 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-10-07 15:02:21,113 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-10-07 15:02:21,113 INFO [SpringContextShutdownHook][EmbedServer.java:117] - >>>>>>>>>>> xxl-job remoting server destroy success.
+2024-10-07 15:02:21,113 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-10-07 15:02:21,113 INFO [xxl-job, executor JobLogFileCleanThread][JobLogFileCleanThread.java:99] - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+2024-10-07 15:02:21,114 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-10-07 15:02:21,114 INFO [xxl-job, executor TriggerCallbackThread][TriggerCallbackThread.java:98] - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+2024-10-07 15:02:21,114 INFO [Thread-10][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-10-07 15:02:21,114 INFO [Thread-10][TriggerCallbackThread.java:128] - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+2024-10-07 15:02:21,114 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-10-07 15:02:21,114 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-10-07 15:02:21,114 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-10-07 15:02:21,114 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-10-07 15:02:21,115 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4535bdc6: (connection evicted)
+2024-10-07 15:02:21,115 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4535bdc6: (connection evicted)
+2024-10-07 15:02:21,120 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6523c0ba: (connection evicted)
+2024-10-07 15:02:21,120 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6523c0ba: (connection evicted)
+2024-10-07 15:02:21,120 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@241eca81: (connection evicted)
+2024-10-07 15:02:21,120 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@241eca81: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15708f48: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15708f48: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@443135ce: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@443135ce: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56a57083: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@56a57083: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@407f8d4e: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@407f8d4e: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54108ad5: (connection evicted)
+2024-10-07 15:02:21,121 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54108ad5: (connection evicted)
+2024-10-07 15:02:21,122 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@680f52b1: (connection evicted)
+2024-10-07 15:02:21,122 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@680f52b1: (connection evicted)
+2024-10-07 15:02:21,122 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57af644c: (connection evicted)
+2024-10-07 15:02:21,122 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57af644c: (connection evicted)
+2024-10-07 15:02:21,122 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-10-07 15:02:21,122 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-10-07 15:02:21,122 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-10-07 15:02:21,122 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
